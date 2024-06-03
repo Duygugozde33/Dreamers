@@ -1,0 +1,39 @@
+Figma
+figma resources
+duplicate to your drafts view only
+frame
+hit f choose the frame
+radius tool corner have round edge
+independent corner
+hold shift for perfect circle
+alt measure all item how far each other
+alt down move the items
+free figma icons
+right click hide edit menu
+alt shift the item perfect size 
+unsplassh website for find a few photos
+sf pro text font
+
+
+Figma again
+double clikc to shape edit menu change
+pencil draw epri curve design
+ctrl d duplicate
+ctrl g make it group
+shift a auto layout fix everything responsive
+component create component button again again
+master component ici dolu
+instance component ici bos
+assets local component
+variants
+properties
+master component have variants under itself
+name it icon = false icon = true give you a checked box incrediable
+content reel plugin resources
+contrast plugin good
+add animation
+component prototype on click 
+interactive component 
+variant 2 base colour one of them is white the other is what i want 
+prototype connect this two button each other
+if you select the component and edit this the constraints part as center to center doesnt matter how the size of the frame change this button would be in the middle of everything

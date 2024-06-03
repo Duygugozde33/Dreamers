@@ -1,0 +1,51 @@
+json
+
+{"intents" :[
+
+{"tag" : "selamlasma",
+"patterns" : ["Merhaba", "Selam", "Günaydın", "Tünaydın", "İyi akşamlar", "İyi geceler", "N’aber?", "Ne var ne yok?", "Selamünaleyküm", "Hey!", "İyi günler"],
+"responses": ["Hey!","Senin için ne yapabilirim?", "Nasılsınız?", "Merhaba, nasılsınız?", "Selam, uzun zamandır görüşemedik!", "Merhaba", "Selam", "N’aber?", "Ne var ne yok?", "İyi günler"],
+}
+
+{"tag" : "ruyani anlatma",
+"patterns" : ["", "", "", "", "", ""],
+"responses": ["Dün gece ilginç bir rüya gördün mü?","Rüyaların çok merak ediyorum, dün gece ne rüya gördün?", "Bu sabah nasıl bir rüyayla uyandın?", "Dün gece rüya gördüysen, anlatmak ister misin?", "Rüyalarını paylaşmayı sever misin? Dün gece ne gördün?", "Rüyaların genellikle nasıl olur? Dün geceki rüyan nasıldı?", "Rüyanı anlatırsan çok sevinirim, neler gördün?", "Bazen rüyalar çok ilginç olabiliyor, senin dün geceki rüyan nasıldı?", "Rüyalar bazen önemli ipuçları verir, dün gece ne rüya gördün?", "Dün gece ilginç bir şey yaşadın mı rüyanda?"],
+}
+
+{"tag" : "olaylar",
+"patterns" : ["", "", "", "", "", ""],
+"responses": ["Rüyanda neler oldu, biraz daha detaylı anlatabilir misin?","Rüyanın hangi kısmı seni en çok etkiledi?","Rüyandaki yer nasıldı, etrafında neler vardı?", "Rüyanda kimler vardı, onları nasıl tanımlarsın?", "Rüyanın başından sonuna kadar neler yaşandı?", "Rüyanda hissettiklerini anlatabilir misin?", "Rüyandaki mekanları biraz daha tarif edebilir misin?", "Rüyanda geçen olaylar nasıl başladı ve nasıl gelişti?",  "Rüyanda karşılaştığın kişilerle ne tür etkileşimlerde bulundun?", "Rüyanda geçen olayların sırasını hatırlıyor musun?", "Rüyanda en çok dikkatini çeken ayrıntılar nelerdi?", "Rüyandaki olaylar seni nasıl hissettirdi?", "Rüyandaki en ilginç veya tuhaf detay neydi?", "Rüyanın sonunda neler oldu, nasıl bitti?"],
+}
+
+{"tag" : "olumlu",
+"patterns" : [],
+"responses": ["Rüyan seni çok mutlu etmiş gibi görünüyor.","Rüyanın seni ne kadar iyi hissettirdiğini görebiliyorum.", "Bu rüya seni gerçekten rahatlatmış gibi görünüyor.", "Rüyanın ardından kendini daha huzurlu hissettiğini söyleyebilirim.", "Rüyanın sende olumlu bir etki bıraktığını anlıyorum.", "Bu rüya sana yeni bir bakış açısı kazandırmış gibi duruyor.", "Rüyanın ardından daha enerjik ve motive görünüyorsun.", "Rüyanın seni ne kadar motive ettiğini görmek güzel.", "Bu rüya sana gerçekten ilham vermiş gibi.", "Rüyanın seni nasıl olumlu etkilediğini duymak çok güzel.", "Rüyanın ardından kendini daha iyi hissettiğini söylemek doğru olur mu?", "Bu rüya sana umut ve mutluluk getirmiş gibi görünüyor.", "Rüyanın sana ne kadar iyi geldiğini görmek harika.", "Rüyanın ardından pozitif bir değişim fark ettim sende."],
+}
+
+{"tag" : "olumsuz",
+"patterns" : [],
+"responses": ["Rüyan seni biraz rahatsız etmiş gibi görünüyor.", "Rüyanın seni ne kadar huzursuz ettiğini görebiliyorum.", "Rüyanın sende olumsuz bir etki bıraktığını fark ettim.", "Bu rüya seni gerçekten tedirgin etmiş gibi görünüyor.", "Rüyanın ardından kendini daha gergin hissettiğini söyleyebilirim.", "Rüyanın seni ne kadar rahatsız ettiğini anlıyorum.", "Bu rüya seni biraz endişelendirmiş gibi duruyor.", "Rüyanın ardından daha stresli ve kaygılı görünüyorsun.", "Rüyanın seni ne kadar korkuttuğunu görmek üzücü.", "Bu rüya sana gerçekten sıkıntı vermiş gibi.", "Rüyanın seni olumsuz etkilediğini duymak üzücü.", "Rüyanın ardından kendini kötü hissettiğini söylemek doğru olur mu?", "Bu rüya sana huzursuzluk ve endişe getirmiş gibi görünüyor.",  "Rüyanın sana ne kadar kötü geldiğini görmek üzücü.", "Rüyanın ardından olumsuz bir değişim fark ettim sende."],
+}
+
+{"tag" : "lucid",
+"patterns" : [],
+"responses": ["Rüyanın farkında olduğun anlar oldu mu?", "Rüyanda, rüya gördüğünü biliyor muydun?", "Rüyanda olayları kontrol edebildiğin anlar oldu mu?", "Rüya sırasında bilinçli olarak kararlar alabildin mi?", "Rüyanın içinde olup bitenleri yönlendirebildin mi?", "Rüyanda, rüya olduğunu fark ettiğinde nasıl hissettin?", "Rüyanda, gerçek dünyadan farkı algılayabildin mi?", "Rüyanda, bilinçli olarak yaptığın bir şey var mıydı?", "Rüyanda çevrendeki detayları daha net veya daha canlı bir şekilde algıladın mı?", "Rüyanda kendini uyandırmak istediğin anlar oldu mu?", "Rüyanda, normalde yapamayacağın şeyleri yapabildin mi?", "Rüyanda herhangi bir testi, örneğin eline bakmak veya bir metni tekrar okumak gibi, gerçekleştirdin mi?", "Rüyanda bilinçli olarak uçma veya nesneleri hareket ettirme gibi şeyler denedin mi?", "Rüyanda, kendi iradenle bir yerden bir yere gitmeyi başarabildin mi?", "Rüyanın akışını değiştirmek istediğinde başarılı oldun mu?"],
+}
+
+{"tag" : "nightmare",
+"patterns" : [],
+"responses": ["Rüyanda korkutucu veya rahatsız edici bir şey yaşadın mı?", "Rüyanın seni çok ürküttüğünü hissettin mi?", "Bu gece rüyan seni uykundan uyandırdı mı?", "Rüyandan sonra ter içinde mi uyandın?", "Rüyanın etkisiyle kalbin hızlı mı atıyordu?", "Rüyadan sonra çarpıntı veya nefes darlığı yaşadın mı?", "Rüyanda kendini kaçarken veya saklanırken buldun mu?"
+],
+}
+
+{"tag" : "gelecek",
+"patterns" : [],
+"responses": ["Rüyanda ne tür geleceğe dair olaylar veya görüntüler gördün?", "Rüyanda gördüğün gelecekle ilgili olaylar seni nasıl etkiledi?", "Gelecekle ilgili rüyaların sıkça mı olur?" ],
+}
+
+]}
+
+
+
+"patterns" : ["gelecekten", "de javu", "dejavu",],
+"responses": ["O zaman tezahür rüyası görüyor olabilirsin", "O zaman bir kabus görüyor olabilirsin", "O zaman rüya içinde rüya görüyor olabilirsin", "O zaman lucid dream görüyor olabilirsin"

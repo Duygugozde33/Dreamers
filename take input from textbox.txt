@@ -1,0 +1,37 @@
+take input from textbox
+
+import Tkinter
+window = tkinter.Tk()
+def buttonpress() :
+	contents = textbox.get()
+textbox = Tkinter.Entry(window)
+#button = tkinter.Button(window, command = buttonpress)
+textbox.pack()
+button.pack()
+window.mainloop()
+
+
+import keyboard
+ 
+while True:
+   
+    print(keyboard.read_key())
+    if keyboard.read_key() == "a":
+        break
+
+
+
+open file write and close after read
+
+f = open("demofile3.txt", "w")
+f.write("Woops! I have deleted the content!")
+f.close()
+
+#open and read the file after the overwriting:
+f = open("demofile3.txt", "r")
+print(f.read())
+
+with open('dreams.txt', 'a') as file:
+def getkeypress():
+	dream = textbox.get()
+	file.write(dream)
